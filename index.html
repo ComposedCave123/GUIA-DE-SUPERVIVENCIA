@@ -18,10 +18,10 @@
     <nav>
         <ul>
             <li><a href="#GUI">GUIA BASICA</a></li>
-            <li><a href="TIPS">TIPS PARA DIFICULTADES</a></li>
-            <li><a href="EQUIP">EQUIPAMIENTO </a></li>
-            <li><a href="INSCRIPCION">GUIA PERSONALIZADA</a></li>
-            <li><a href="CONTACTO">CONTACTO</a></li>
+            <li><a href="#TIPS">TIPS PARA DIFICULTADES</a></li>
+            <li><a href="#EQUIP">EQUIPAMIENTO </a></li>
+            <li><a href="#INSCRIPCION">GUIA PERSONALIZADA</a></li>
+            <li><a href="#CONTACTO">CONTACTO</a></li>
         </ul>
     </nav>
 
@@ -43,12 +43,11 @@
         <h2>
             ¿Que hacer sin encendedor?
         </h2>
-        <a href="https://youtu.be/xkr0JlhnO6I">
+        <a href="https://youtu.be/xkr0JlhnO" >
             Maneras faciles de hacer fuego sin encendedor
         </a> 
         <br><br>
         <img src="C:\Users\priet\Downloads\fuego.jpg" alt="fuego encendiendose con palo">
-        
         <br><br>
         <h2>
             ¿Que hacer si nos quedamos sin agua potable?
@@ -91,9 +90,35 @@
 
     </main>
 
-    <footer>
-        <br><br><br><br><br><br><br><br>
-       <p id="CONTACTO">Correo: raulcenturion177@gmail.com</p> 
+    <footer id="INSCRIPCION">
+       <form action="">
+        <fieldset>
+            <legend>TABLA DE INSCRIPCION</legend>
+            <label for="">Nombre</label><br>
+            <input type="text" placeholder="ingresar nombre"required>
+            <br><br>
+            <label for="">Apellido</label><br>
+            <input type="text" placeholder="Ingrese su apellido"required>
+            <br><br>
+            <label for="">Correo electronico</label><br>
+            <input type="email" placeholder="Ingrese su correo"required>
+            <br><br>
+            <label for="">Contraseña</label><br>
+            <input type="password" placeholder="Ingrese su contraseña"required >
+            <br><br>
+            <label for="">Edad</label><br>
+            <input type="number" placeholder="Ingrese su edad" required>
+            <br><br>
+            <label for="">Fecha de campamento</label><br>
+            <input type="date" placeholder="Fecha de campamento" required>
+
+
+        </fieldset>
+        <button type="submit">enviar</button>
+        <button type="reset">borrar</button>
+       </form>
+
+       <p>Correo electronico: raulcenturion177@gmail.com</p>
     </footer>
 </body>
 </html>
